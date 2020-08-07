@@ -151,9 +151,8 @@
           "configurations": {
             "production": {
               "tsConfig": "projects/dicom-viewer/tsconfig.lib.prod.json"
-}
+            }
           }
-
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -178,5 +177,8 @@
       }
     }
   },
-  "defaultProject": "dicomViewerDemo"
+  "defaultProject": "dicomViewerDemo",
+  "cli": {
+    "analytics": "da4b22c7-6920-4409-a990-d77dbeee290a"
+  }
 }
